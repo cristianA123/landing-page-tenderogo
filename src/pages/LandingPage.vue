@@ -11,7 +11,7 @@ import { contactoService } from '@/services/contacto.service'
 const appUrl = import.meta.env.VITE_APP_URL || ''
 
 function goToLogin() {
-  window.location.href = `${appUrl}/login`
+  window.location.href = `${appUrl}/#/login`
 }
 
 // ── Form ─────────────────────────────────────────────────────────────────────
